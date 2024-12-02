@@ -1,0 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  background-color: #f5f5dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 350px;
+  background-color: #f7d9b6;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.back-button {
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+.title {
+  font-size: 18px;
+  margin: 10px 0 10px;
+  color: #666;
+}
+.amount {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.input-group {
+  display: flex;
+  margin-bottom: 5px;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+}
+.input-group label {
+  margin-bottom: 5px;
+}
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+#date {
+  width: 95%;
+}
+.type-group {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.type-button {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.type-button.income {
+  background-color: #ec6f09bc;
+  color: white;
+  border: none;
+}
+.type-button.expense {
+  background-color: #c73535;
+  color: white;
+  border: none;
+}
+.continue-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #851b08;
+  border: none;
+  border-radius: 8px;
+}

@@ -1,96 +1,82 @@
-/* Reset CSS */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5dc;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  .container {
-    width: 50%;
-    max-width: 600px;
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-  }
-  
-  /* Profile Header */
-  .profile-header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .avatar-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid #b6a7fb;
-  }
-  
-  .user-info {
-    margin-top: 15px;
-  }
-  
-  .username {
-    font-size: 24px;
-    font-weight: bold;
-    color: #4c4b4b;
-  }
-  
-  .edit-icon {
-    font-size: 18px;
-    color: #7d7c7c;
-    cursor: pointer;
-  }
-  
-  /* Profile Options */
-  .profile-options {
-    margin-top: 20px;
-  }
-  
-  .option {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    background: #f6f6f6;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  .option:hover {
-    background: #eaeaea;
-  }
-  
-  .icon {
-    font-size: 24px;
-    margin-right: 15px;
-    color: #9c88fd;
-  }
-  
-  .logout .icon {
-    color: #e74c3c;
-  }
-  
-  p {
-    margin: 0;
-    font-size: 18px;
-    color: #4c4b4b;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 50%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.header .back-btn {
+  border: none;
+  background: none;
+}
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.avatar-container {
+  position: relative;
+  display: inline-block;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #b6a7fb;
+}
+.user-info {
+  margin-top: 15px;
+}
+.username {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4c4b4b;
+}
+.edit-icon {
+  font-size: 18px;
+  color: #7d7c7c;
+  cursor: pointer;
+}
+.profile-options {
+  margin-top: 20px;
+}
+.option {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: #f6f6f6;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.option:hover {
+  background: #eaeaea;
+}
+.icon {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #262045;
+}
+.logout .icon {
+  color: #e2230e;
+}
+p {
+  margin: 0;
+  font-size: 18px;
+  color: #180606;
+}

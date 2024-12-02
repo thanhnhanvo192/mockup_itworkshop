@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Transaction</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><button class="back-button">←</button></a>
+            <h1>Add Transaction</h1>
+        </header>
+        <main>
+            <p class="title">How much?</p>
+            <p class="amount">500.000</p>
+            <form>
+                <div class="input-group">
+                    <label for="category">Category</label>
+                    <select id="category" name="category">
+                        <option value="" disabled selected>Category</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="description">Description</label>
+                    <select id="description" name="description">
+                        <option value="" disabled selected>Description</option>
+                    </select>
+                </div>
+                <div class="input-group type-group">
+                    <button type="button" class="type-button income">Income</button>
+                    <button type="button" class="type-button expense">Expense</button>
+                </div>
+                <div class="input-group">
+                    <label for="date">Pick your date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <button type="submit" class="continue-button">Continue</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
